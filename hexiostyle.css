@@ -1,0 +1,233 @@
+/* colors
+
+blue: #68b4e4
+green: #6bbf66
+yellow: #fce043
+pink: #ed9dc4
+
+*/
+
+body#home_page {
+    
+    background-image: url("Images/background_01.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* banner */
+
+#banner {
+    
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+#logosprite {
+    
+    /* height="42px" <- now part of html */
+}
+
+#margin {
+    
+    height: 48px;
+}
+
+#greet {
+    
+    letter-spacing: -12px;
+    font-size: 9em;
+}
+
+td {
+    
+    padding: 0 42px 0 42px;
+    height: 42px;
+}
+
+#pagelinks:link {
+    
+    color: white;
+    text-decoration: none;
+}
+
+#pagelinks:visited {
+    
+    color: white;
+    text-decoration: none;
+}
+
+#pagelinks:hover {
+    
+    color: #c6c6c6;
+}
+
+#pagelinks:active {
+    
+    text-decoration: none;
+}
+
+#pagelinksblack:link {
+    
+    color: white;
+    text-decoration: none;
+}
+
+#pagelinksblack:visited {
+    
+    color: black;
+    text-decoration: none;
+}
+
+#pagelinksblack:hover {
+    
+    color: #888888;
+}
+
+#pagelinksblack:active {
+    
+    text-decoration: none;
+}
+
+#coming {
+    
+    color: #ed9dc4;
+    height: 40px;
+    width: 120px;
+    border-style: solid;
+    border-color: #ed9dc4;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+#quicktable {
+    
+    border-spacing: 0;
+    padding: 0;
+    border-collapse: separate;
+}
+
+#quickabout {
+    
+    color: white;
+    background: #68b4e4;
+    width: 100%;
+}
+
+#quickabouthead {
+    
+    letter-spacing: -12px;
+    font-size: 9em;  
+}
+
+#quickblog {
+    
+    color: white;
+    background: #fce043;
+    width: 100%;
+}
+
+#quickios {
+    
+    color: white;
+    background: #ed9dc4;
+    width: 100%;
+}
+
+#quickpurchase {
+    
+    color: white;
+    background: #6bbf66;
+    width: 100%;
+}
+
+/* about page */
+
+#banner02 {
+    
+    background-color: #888888;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+/* product page */
+
+body#product_page {
+    
+    background-image: url("Images/background_02.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prodname {
+    
+    letter-spacing: -8px;
+    font-size: 6em;
+}
+
+#prodheaders {
+    
+    letter-spacing: -4px;
+    font-size: 3em;
+}
+
+#pricebutton {
+    
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    border-style: solid;
+    border-color: #6bbf66;
+    background-color: #6bbf66;
+    border-width: 2px;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* ios page */
+
+#appstorebutton {
+    
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    border-style: solid;
+    border-color: #68b4e4;
+    background-color: #68b4e4;
+    border-width: 2px;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* blog page */
+
+#block01 {
+    
+    color: white;
+    width: 100%;
+}
+
+#updatetitle {
+    
+    letter-spacing: -4px;
+    font-size: 3em;   
+}
+
+#updatebody {
+    
+    height: 9em;
+    line-height: 9em;
+    text-align: center;
+}
